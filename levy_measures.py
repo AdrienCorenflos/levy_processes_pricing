@@ -1,7 +1,6 @@
 from random import gauss as gaussian
 
 
-
 class LevyMeasure(object):
     def __init__(self, is_finite=True):
         self._is_finite = is_finite
