@@ -1,3 +1,6 @@
+from math import exp
+from random import gauss as gaussian
+from random import expovariate
 class LevyProcess(object):
     def __init__(self, volatility, drift, t, levy_measure):
         self._vol = volatility
